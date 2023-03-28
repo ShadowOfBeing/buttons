@@ -1,0 +1,57 @@
+.main-page-text-block {
+    width: 700px;
+    display: block;
+    margin: 30px auto;
+}
+
+#btn_main {
+    position: absolute;
+    position: relative;
+    width: 35%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#btn_up {
+    z-index: 10;
+    left: 57px;
+    top: 40px;
+    position: absolute;
+}
+
+#btn_middle {
+    z-index: 11;
+    left: 153px;
+    top: 129px;
+    position: absolute;
+}
+
+#btn_down {
+    z-index: 10;
+    left: 58px;
+    top: 281px;
+    position: absolute;
+}
+
+#up_1:hover, #middle_1:hover, #down_1:hover {
+    fill: red;
+    cursor: pointer;
+}
+
+.class_green {
+    fill: green;
+}
+
+#middle_1_reverse {
+    fill: green;
+}
+
+#down_1_reverse {
+    fill: green;
+}
+
+#up_1_reverse:hover, #middle_1_reverse:hover, #down_1_reverse:hover {
+    fill: green;
+    cursor: pointer;
+}
